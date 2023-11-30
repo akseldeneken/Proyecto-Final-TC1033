@@ -100,7 +100,7 @@ int main(){
         case 5:
 
             //pide todos los datos del cliente nuevo y lo agrega
-            cout << "\nIngrese el nombre: "; cin.ignore(); getline(cin, temp_nombre);
+            cout << "\nIngrese el nombre del cliente: "; cin.ignore(); getline(cin, temp_nombre);
             cout << "\nIngresa la direccion: "; cin.ignore(); getline(cin, temp_direccion);
             cout << "\nIngresa el numero telefonico: "; cin >> temp_numero;
             cout << "\nQue tipo de producto es?(Laptop = 1, Celular = 2): "; cin >> prodComprado;
